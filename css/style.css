@@ -13,7 +13,7 @@ h3{
 p{
     color: #70747A;
 }
-/* Navbar */
+                                       /* Navbar */
 .navbar-container{
     width: 100%;
     height: 80px;
@@ -55,7 +55,7 @@ nav{
     color: #FFFFFF;
 }
 
-/* Main Banner */
+                                    /* Main Banner */
 .main-banner{
     background-image: url("../img/2.png");
     padding: 15rem 0 ;
@@ -71,7 +71,7 @@ nav{
     text-shadow: #000000 3px 2px 3px;
 }
 
-/* Services */
+                                         /* Services */
 
 .services-container{
     padding: 5rem 0;
@@ -107,4 +107,72 @@ nav{
 }
 .services-container p{
     line-height: 24px;
+}
+                                         /* Prices and plans */
+
+.pricing-container{
+    padding-bottom: 5rem;
+    text-align: center;
+
+}
+.pricing-container h2{
+    font-size: 36px;
+}  
+.pricing-container p{
+    font-size: 20px;
+
+} 
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+.plan{
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px ;
+
+}
+.plan ul{
+    padding: 0;
+}
+.plan li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #E8E9EA;
+    color: #333333;
+}
+.plan .price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2CC762;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+}
+.plan .plan-name{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #202B34;
+    padding: 50px 0;
+}
+.plan .plan-btn{
+    background-color: #2CC762;
+    color: #FFFFFF;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+.plan .recomended{
+    background-color: #F45C57;
+
 }
