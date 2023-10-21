@@ -176,3 +176,47 @@ nav{
     background-color: #F45C57;
 
 }
+
+                                         /* search domain */
+.searchdomain-container{
+    background-color: #34454E;
+    text-align: center;
+    padding: 5rem 0;
+}
+.searchdomain-container h2{
+    color: #FFFFFF;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.searchdomain-container p{
+    color: #D5D5D5;
+    font-size: 24px;
+    margin-bottom: 25px;
+
+}
+.searchdomain-container input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.searchdomain-container input[type="text"]{
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.searchdomain-container input[type="submit"]{
+    background-color: #2CC76A;
+    padding: 15px 30px;
+    color: #FFFFFF;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: .9;
+
+
+
+}
+.searchdomain-container input[type="submit"]:hover{
+    opacity: 1;
+}
